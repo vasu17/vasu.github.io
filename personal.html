@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasu | Personal</title>
+    <meta name="description" content="Personal interests and hobbies of Vasudevan Sundararaman.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="theme-personal">
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Vasu</a>
+            <a href="index.html" class="theme-toggle-btn">Switch to Work</a>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Personal Hero -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Beyond Physics</h1>
+                <p class="hero-subtitle">Voracious reader, gamer and a I lost my train of thought :( </p>
+                <p class="hero-university">Life outside the lab?</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#hobbies" class="btn btn-outlined">My Hobbies</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-circle"></div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="section-container">
+            <h2 class="section-title">My Passions</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3>Tech Stuff</h3>
+                    <p>Yes, I am that Indian guy. I used to test software and unreleased devices for Oneplus. Check out
+                        my Telegram bot code for notifying you of daily posts! Check it out </p>
+                </div>
+                <div class="research-card">
+                    <h3>Cooking</h3>
+                    <p>I LOVE to cook and am open to try all sorts of new and weird dishes. Favorite cuisine is Italian
+                        and Mexican.</p>
+                </div>
+                <div class="research-card">
+                    <h3>Gaming</h3>
+                    <p>Nvidia 4080 Super, 7800x3D. I mostly play single player games.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="about-card">
+                <h3 style="color: var(--color-secondary); font-size: 1.5rem; margin-bottom: 1rem;">
+                    🤖 Arxiv Telegram Bot for hep-th
+                </h3>
+                <p class="about-text">
+                    A Python-based Telegram bot that automatically scrapes and posts new arXiv papers from any category
+                    (default: hep-th).
+                    The bot runs daily using GitHub Actions and sends notifications to a Telegram channel.
+                </p>
+                <div style="margin: 1.5rem 0;">
+                    <h4 style="color: var(--color-text-primary); font-size: 1.1rem; margin-bottom: 0.75rem;">Features:
+                    </h4>
+                    <ul
+                        style="list-style: disc; margin-left: 2rem; color: var(--color-text-secondary); line-height: 1.8;">
+                        <li>Automated daily scraping of new arXiv papers</li>
+                        <li>Smart caching to avoid duplicate posts</li>
+                        <li>Works with any arXiv category (easily configurable)</li>
+                        <li>Integrates with INSPIRE-HEP author links</li>
+                        <li>GitHub Actions workflow for scheduled daily runs</li>
+                        <li>Minimal dependencies (requests + beautifulsoup4)</li>
+                    </ul>
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <a href="https://github.com/vasu17/Arxiv-Bot-for-hepth" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary">
+                        View on GitHub →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section Placeholder -->
+        <section id="gallery" class="section-container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="about-card">
+                <p class="about-text" style="text-align: center;">
+                    [Photo Gallery Coming Soon?]
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Vasudevan Sundararaman. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
